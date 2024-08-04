@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+    background-color: white;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+}
+
+nav {
+    width: 100%;
+    height: 7ex, fit-content;
+    display: flex;
+    position: fixed; /* Fix the nav bar at the top */
+    top: 0; 
+    z-index: 100;
+    color: white
+}
+
+nav a {
+    width: 25%;
+    text-align: center;
+    padding: 0.5% 0;
+    color: white;
+    text-decoration: none; /* Remove underline */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-text-color a {
+    color: white !important;
+}
+#home {
+    background-color: black;
+}
+
+#b1 {
+    background-color: #1791e3;
+}
+
+#b2 {
+    background-color: #276e17;
+}
+
+#b3 {
+    background-color: #541212;
+}
+
+main {
+    margin-top: 5ex;
+    text-align: center;
+}
+
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+.button-54:active {
+box-shadow: 0px 0px 0px 0px;
+top: 5px;
+left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}

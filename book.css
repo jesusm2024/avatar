@@ -1,0 +1,132 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main a {
+    /* Remove underline */
+    text-decoration: none; 
+}
+
+
+header {
+    margin: auto; 
+    margin-top: 5vw;
+}
+
+button {
+    margin-left: 60vw;
+}
+
+#jump-link {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1%;
+    color: white;
+}
+
+#jump-link.dark-mode-jump {
+    color: black;
+}
+
+#characters {
+    margin-bottom: 20vh;
+}
+
+#char-grid {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, 25vw);
+    justify-content: center;
+    gap: 1%;
+    width: 90%;
+    margin: auto;
+}
+
+.char-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.char-box img {
+    padding: 2%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.char-box p {
+    font-size: auto;
+    padding: 3%;
+}
+
+h3 {
+    margin-top: 0%;
+    margin-bottom: -5%;
+}
+
+#epi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 40vw);
+    gap: 1%;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.epi-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.epi-box img {
+    padding: 2%;
+    width: 30vw;
+    height: 15vw;
+    object-fit: fill;
+    border-radius: 10%;
+}
+
+.epi-box p {
+    font-size: auto;
+    padding: 3%;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.videos h3 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.videos img {
+    background-color: blue;
+   object-fit: scale-down;
+}
+
+.creator-text {
+    font-size: xx-large;
+}
+
+a:link, 
+a:visited {
+    color: inherit; /* Use inherit to keep the color same as its parent */
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+#comic-header {
+    margin-bottom: 2vw;
+}
