@@ -5,10 +5,10 @@
     <title>Avatar the Last Airbender: Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <script src="scripts/main.js" defer></script>
     <!-- Include anime.js with defer -->
-    <!-- <script src="node_modules/animejs/lib/anime.min.js" defer></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="node_modules/animejs/lib/anime.min.js" defer></script>
+    <script src="scripts/api.js"></script>
   <body>
     <nav class="nav-text-color">
         <a href="index.html" tabindex="1" id="home">Home</a>
@@ -34,6 +34,18 @@
                 What makes Avatar: The Last Airbender so special for its audience is its rich, meticulously crafted world and the depth of its storytelling. The series seamlessly blends action, humor, and poignant themes, exploring complex issues such as war, destiny, identity, and redemption. Each character is intricately developed, with personal growth and struggles that resonate deeply with viewers. The show's commitment to diverse cultural influences and its respectful representation of various philosophies and traditions add to its authenticity and appeal. Its stunning animation, memorable music, and timeless messages about friendship, hope, and perseverance have cemented its status as a beloved and influential classic in animated television.
             </p>
         </article>
+        <div id="api-div">
+            <button role="button" tabindex="6">
+                <a href="char.html">
+                    All Characters
+                </a>
+            </button>
+            <button role="button" tabindex="7">
+                <a href="trivia.html">
+                    Trivia
+                </a>
+            </button>
+        </div>
         <section>
             <div class="link-container">
                 <img src="assets/comics.jpg" alt="Several Avatar the Last Airbender comics. When hovering over the image a caption and button will appear." id="comic-pic">
@@ -74,7 +86,7 @@
                     <a href="https://www.avatarstudiosofficial.com/" target="_blank" tabindex="8">
                         <div class="center-con">
                             <div class="round">
-                                <div id="cta">
+                                <div id="cta">          
                                     <span class="arrow primera next "></span>
                                     <span class="arrow segunda next "></span>
                                 </div>
@@ -84,18 +96,6 @@
                 </div>
             </div>
         </section>
-        <!-- <footer>
-            <p>Contact Us</p>
-            <div >
-                <img src="https://placehold.co/100/purple/white?text=Instagram" alt="Click icon to visit Instagram."/>
-            </div>
-            <div >
-                <img src="https://placehold.co/100/grey/white?text=Email" alt="Click icon to send email."/>
-            </div>
-            <div >
-                <img src="https://placehold.co/100/blue/white?text=Github" alt="Click icon to visit GitHub."/>   
-            </div>
-        </footer> -->
     </main>
   </body>
 </html>
