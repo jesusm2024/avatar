@@ -1,5 +1,3 @@
-Jesus Montero
-
 The following interactive features were added: 
 
     - A Theme Switcher that allows users to change the color schemes from dark to light. When the button is clicked on any page the theme will also change on the rest of the pages. 
