@@ -10,6 +10,7 @@ header {
     margin-top: 5vh;
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 button {
