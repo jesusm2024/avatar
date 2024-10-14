@@ -66,6 +66,7 @@ button {
 #animated-img {
     opacity: 0;
     transform: scale(0.5);
+    width: 100%;
 }
 
 article {
@@ -172,11 +173,11 @@ footer p {
     
 }
 
-#cta{
+.cta{
     width:100%; cursor: pointer; position: relative;
 }
 
-#cta .arrow{left: 30%;}
+.cta .arrow{left: 30%;}
 /* .arrow {position: absolute; bottom: 0;  margin-left:0px; width: 12px; height: 12px; background-size: contain; top:15px;} */
 .arrow {position: absolute; bottom: 0;  margin-left:0px; width: 1vw; height: 1vw; background-size: contain; top:1vw;}
 
